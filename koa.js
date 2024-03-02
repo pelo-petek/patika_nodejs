@@ -5,17 +5,17 @@ const router = new route();
 
 
 router.get('/', async (ctx) => {
-  ctx.body = 'Welcome to the homepage';
+  ctx.body = '<h1>Welcome to the homepage</h1>';
   console.log(ctx);
 });
 
 router.get('/about', async (ctx) => {
-  ctx.body = 'This is the about page';
+  ctx.body = '<h1>welcome to the about page</h1>';
   console.log(ctx);
 });
 
 router.get('/contact', async (ctx) => {
-  ctx.body = 'hey welcome to contact page';
+  ctx.body = '<h1>welcome to the contact page</h1>';
   console.log(ctx);
 });
 
